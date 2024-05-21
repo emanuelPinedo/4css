@@ -1,0 +1,78 @@
+#css-zen-garden{
+    padding: 0;
+    margin: 0;
+    font-family: "lucida grande", tahoma, verdana, sans-serif;
+    font-size: 11px;
+    background-color: #FFFFFF; 
+    color: #000000;
+}
+
+#linkList{
+    width: 20%;
+    float: left;
+}
+
+#supportingText {
+    width: 80%;
+    float: left;
+}
+
+#pageHeader h1{
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #ddd; 
+    margin-bottom: -15px;
+}
+
+#pageHeader h2{
+    position: relative;
+    top: -15px; 
+    border: 1px solid #808080;
+    padding: 15px;
+}
+
+#lresources ul {
+    list-style-type: none;
+    background-color: #9cf;
+}
+#lresources a {
+    text-decoration: none;  
+    font-weight: bold;
+    color: #036;
+}
+
+#lresources a:hover{
+    background-color: #036;
+    color: #9cf;
+}
+
+#larchives ul li:first-child{
+    float: right;
+}
+
+
+#larchives ul li:nth-child(2){
+    float: left;
+}
+
+#larchives ul li:nth-child(3){
+    float: right;
+}
+
+#lselect {
+    list-style-image: url('blue_bullet.gif');
+}
+
+#pageHeader h1 {
+    content: url('css_zen_garden.gif');
+    background-image: url('css_zen_garden.gif');
+    background-position: 10px 10px;
+    background-repeat: no-repeat; 
+}
+
+#pageHeader h2 {
+    background-image: url('css_zen_garden.gif');
+    background-position: top;
+    background-color: #489AED;
+    background-repeat: repeat-x;
+}
